@@ -1,0 +1,61 @@
+
+:root{--bg:#21130E;--bg-deep:#150b08;--gold:#F0C46C;--cream:#E6D8C3;--ink:#101010;--line:rgba(240,196,108,.35)}
+*{box-sizing:border-box}
+html{background:var(--bg-deep)}
+body{margin:0;min-height:100vh;font-family:"Liberation Serif","Times New Roman",Times,serif;color:var(--cream);font-size:1.15rem;line-height:1.6;background:radial-gradient(ellipse at 50% 0%,var(--bg) 0%,var(--bg-deep) 70%) fixed}
+a{color:var(--gold)}
+.top{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 20px;padding:12px 16px;border-bottom:1px solid var(--line);max-width:960px;margin:0 auto}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--gold);font-size:1.35rem;font-weight:700}
+.mono.sm{width:44px;height:44px}
+.top nav{display:flex;flex-wrap:wrap;gap:6px 18px}
+.top nav a{text-decoration:none;color:var(--cream);padding:6px 0;font-size:1.05rem}
+.top nav a:hover{color:var(--gold)}
+main{max-width:760px;margin:0 auto;padding:24px 16px 40px}
+h1{color:var(--gold);font-size:2.1rem;line-height:1.15;margin:.2em 0 .3em;text-shadow:0 3px 12px rgba(0,0,0,.6)}
+h2{color:var(--gold);font-size:1.45rem;margin:1.6em 0 .4em}
+p{margin:.6em 0}
+.hero{text-align:center;padding:12px 0 6px}
+.hero .mono{width:140px;height:140px;margin:0 auto 14px;display:block}
+.hero h1{font-size:2.7rem}
+.tagline{font-size:1.4rem;color:var(--cream)}
+.credit{color:var(--gold);letter-spacing:.04em}
+.albums{display:grid;gap:16px;margin:26px 0}
+@media(min-width:640px){.albums{grid-template-columns:1fr 1fr}}
+.album{display:block;text-decoration:none;color:var(--cream);border:2px solid var(--gold);border-radius:14px;padding:20px 18px;background:rgba(16,16,16,.55)}
+.album:hover,.album:focus{background:rgba(240,196,108,.12)}
+.album strong{display:block;color:var(--gold);font-size:1.6rem;margin-bottom:.25em}
+.album span{font-size:1.05rem}
+.album .go{display:block;margin-top:.7em;color:var(--gold);font-size:.95rem;letter-spacing:.1em;text-transform:uppercase}
+details{border:1px solid var(--line);border-radius:10px;margin:10px 0;background:rgba(16,16,16,.4)}
+summary{cursor:pointer;padding:14px 16px;color:var(--gold);font-size:1.2rem;font-weight:700;list-style:none}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";float:right;font-size:1.4rem;line-height:1}
+details[open] summary::after{content:"\2212"}
+details .inner{padding:0 16px 14px}
+.eyebrow{color:var(--gold);letter-spacing:.14em;text-transform:uppercase;font-size:.9rem}
+.btn{display:inline-block;padding:12px 20px;border-radius:999px;border:2px solid var(--gold);color:var(--gold);text-decoration:none;font-weight:700;margin:6px 8px 6px 0;font-size:1.05rem}
+.btn.solid{background:var(--gold);color:var(--ink)}
+.btn:hover{filter:brightness(1.15)}
+.muted{opacity:.8;font-size:1rem}
+ol.songs,ul.plain{list-style:none;padding:0;margin:14px 0}
+ol.songs li{counter-increment:s;border:1px solid var(--line);border-radius:10px;margin:8px 0;background:rgba(16,16,16,.4)}
+ol.songs{counter-reset:s}
+ol.songs a{display:block;padding:12px 14px 12px 52px;text-decoration:none;color:var(--cream);position:relative}
+ol.songs a::before{content:counter(s);position:absolute;left:14px;top:12px;width:28px;height:28px;border-radius:50%;border:1.5px solid var(--gold);color:var(--gold);text-align:center;line-height:25px;font-size:.95rem}
+ol.songs a:hover{background:rgba(240,196,108,.1)}
+ol.songs b{color:var(--gold);display:block;font-size:1.2rem}
+ol.songs i{font-size:.98rem;opacity:.85}
+.video{position:relative;aspect-ratio:16/9;background:#000;border-radius:12px;overflow:hidden;border:1px solid var(--line);margin:14px 0}
+.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.lyrics p{margin:0 0 1.2em;font-size:1.2rem;line-height:1.55}
+.lyrics .note{font-style:italic;color:var(--gold);opacity:.85}
+.pn{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:26px 0 0;padding-top:16px;border-top:1px solid var(--line)}
+.crumbs{font-size:.95rem;opacity:.85}
+.crumbs a{color:var(--cream)}
+footer{max-width:760px;margin:0 auto;padding:22px 16px 40px;text-align:center;border-top:1px solid var(--line)}
+footer p{margin:.3em 0}
+.tag{color:var(--gold);font-size:1.15rem}
+.small{font-size:.9rem;opacity:.7}
+.lyrics-index h2{margin-top:1.4em}
+.lyrics-index ul{list-style:none;padding:0}
+.lyrics-index li{padding:5px 0}
