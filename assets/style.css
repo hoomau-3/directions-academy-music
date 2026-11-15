@@ -71,3 +71,10 @@ footer p{margin:.3em 0}
 .care ul{list-style:none;padding:0;margin:.5em 0}
 .care li{padding:5px 0;border-top:1px solid var(--line)}
 .care .small{margin-bottom:0}
+.send{margin:18px 0 8px}
+.sendbtn{font-family:inherit;cursor:pointer;font-size:1.2rem;padding:14px 26px;margin:0}
+.sendbox{border:2px solid var(--gold);border-radius:14px;padding:16px 18px;margin:12px 0 4px;background:rgba(240,196,108,.09)}
+.sendbox p{margin:.2em 0 .6em}
+.sendbox .btn{font-family:inherit;cursor:pointer;background:none}
+.sendbox .btn.solid{background:var(--gold)}
+.sendmsg{color:var(--gold);font-weight:700;min-height:1.6em;margin:.4em 0 0}
