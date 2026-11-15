@@ -62,3 +62,12 @@ footer p{margin:.3em 0}
 .lyrics-index li{padding:5px 0}
 
 .album{display:flex;gap:16px;align-items:center}.album .tile{flex:0 0 96px;width:96px;height:96px;border-radius:10px;object-fit:cover}.album .tt{flex:1;min-width:0}
+.intro{display:grid;gap:18px;margin:14px 0 6px}
+@media(min-width:640px){.intro{grid-template-columns:1.2fr 1fr;align-items:start}}
+.intro>div>p:first-child{margin-top:0}
+.care{border:2px solid var(--gold);border-radius:14px;padding:16px 18px;background:rgba(240,196,108,.09);font-size:1rem;line-height:1.5}
+.care h2{margin:0 0 .35em;font-size:1.2rem}
+.care p{margin:.5em 0}
+.care ul{list-style:none;padding:0;margin:.5em 0}
+.care li{padding:5px 0;border-top:1px solid var(--line)}
+.care .small{margin-bottom:0}
