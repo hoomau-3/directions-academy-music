@@ -1,0 +1,1 @@
+{const d=[...document.querySelectorAll('.hmm details')];document.getElementById('hmm-all').addEventListener('click',()=>d.forEach(x=>x.open=true));document.getElementById('hmm-none').addEventListener('click',()=>d.forEach(x=>x.open=false));}
