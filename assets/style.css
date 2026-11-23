@@ -133,3 +133,8 @@ h1,h2,h3,b,strong,.eyebrow{color:#000}
 
 /* Larger tap areas for small text links (D11), same look */
 footer a,.crumbs a{display:inline-block;padding:12px 6px;margin:-12px -6px}
+
+/* Listen without video (L9) */
+.listen{margin:16px 0 6px;padding:12px 14px;border:1px solid var(--line);border-radius:14px;background:rgba(240,196,108,.06)}
+.listenlabel{margin:0 0 8px;color:var(--gold);font-size:.9rem;letter-spacing:.12em;text-transform:uppercase}
+.listen audio{width:100%;height:44px;display:block}
