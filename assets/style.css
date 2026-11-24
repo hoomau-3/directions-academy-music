@@ -169,3 +169,11 @@ footer a,.crumbs a{display:inline-block;padding:12px 6px;margin:-12px -6px}
 .hmm summary{font-size:inherit;font-weight:400}
 .hmm details[open] summary::after{content:none}
 .hmm summary{color:var(--cream)}
+
+/* Song Moods page */
+.for{font-style:italic;opacity:.85;margin-top:0}
+.moodlist{list-style:none;margin:0 0 10px;padding:0}
+.moodlist li{border-bottom:1px solid var(--line);padding:12px 0}
+.moodlist a{display:inline-block;font-size:1.2rem;font-weight:700;padding:4px 0}
+.moodlist .mood{display:block;font-style:italic;font-size:1.1rem}
+.moodlist .det{display:block;font-size:.95rem;opacity:.8}
