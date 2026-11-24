@@ -188,3 +188,7 @@ footer a,.crumbs a{display:inline-block;padding:12px 6px;margin:-12px -6px}
 .tn-row .tn-label{grid-column:1/-1;padding-bottom:0;color:var(--gold);font-weight:700;font-size:.95rem}
 .tn-row p[role=cell]{padding-top:4px}
 .partners{padding-left:1.1em}.partners li{margin:0 0 .6em}.partners b{color:var(--gold)}
+/* About the Author */
+.hero{margin:12px 0 18px}.hero img{display:block;width:100%;height:auto;border-radius:14px;border:1px solid var(--line)}
+.hero figcaption{font-size:.9rem;opacity:.8;font-style:italic;margin-top:6px;text-align:center}
+.authorlink{margin-top:24px;padding:12px 16px;border:1px solid var(--line);border-radius:14px}
