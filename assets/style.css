@@ -177,3 +177,14 @@ footer a,.crumbs a{display:inline-block;padding:12px 6px;margin:-12px -6px}
 .moodlist a{display:inline-block;font-size:1.2rem;font-weight:700;padding:4px 0}
 .moodlist .mood{display:block;font-style:italic;font-size:1.1rem}
 .moodlist .det{display:block;font-size:.95rem;opacity:.8}
+/* How the Music Was Made: hook, 1991 and Today, partners */
+.hook{font-size:1.25rem;font-style:italic}
+.then-now{margin:12px 0 16px;border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.tn-head,.tn-row{display:grid;grid-template-columns:1fr 1fr}
+.tn-head span{padding:10px 12px;color:var(--gold);font-weight:700;font-size:1.15rem;background:rgba(240,196,108,.08)}
+.tn-head span+span,.tn-row p[role=cell]+p[role=cell]{border-left:1px solid var(--line)}
+.tn-row{border-top:1px solid var(--line)}
+.tn-row p{margin:0;padding:10px 12px;font-size:1rem;line-height:1.45}
+.tn-row .tn-label{grid-column:1/-1;padding-bottom:0;color:var(--gold);font-weight:700;font-size:.95rem}
+.tn-row p[role=cell]{padding-top:4px}
+.partners{padding-left:1.1em}.partners li{margin:0 0 .6em}.partners b{color:var(--gold)}
