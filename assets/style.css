@@ -192,3 +192,8 @@ footer a,.crumbs a{display:inline-block;padding:12px 6px;margin:-12px -6px}
 .hero{margin:12px 0 18px}.hero img{display:block;width:100%;height:auto;border-radius:14px;border:1px solid var(--line)}
 .hero figcaption{font-size:.9rem;opacity:.8;font-style:italic;margin-top:6px;text-align:center}
 .authorlink{margin-top:24px;padding:12px 16px;border:1px solid var(--line);border-radius:14px}
+/* Go deeper: essay and stage guide */
+.godeeper{margin:14px 0 10px;padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:rgba(240,196,108,.06)}
+.godeeper .gdlabel{margin:0 0 6px;color:var(--gold);font-weight:700;letter-spacing:.06em;text-transform:uppercase;font-size:.85rem}
+.godeeper p{margin:0 0 8px}.godeeper p:last-child{margin:0}
+.godeeper a,.godeeper-inline a{display:inline-block;padding:4px 0}
