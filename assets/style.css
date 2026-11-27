@@ -197,3 +197,8 @@ footer a,.crumbs a{display:inline-block;padding:12px 6px;margin:-12px -6px}
 .godeeper .gdlabel{margin:0 0 6px;color:var(--gold);font-weight:700;letter-spacing:.06em;text-transform:uppercase;font-size:.85rem}
 .godeeper p{margin:0 0 8px}.godeeper p:last-child{margin:0}
 .godeeper a,.godeeper-inline a{display:inline-block;padding:4px 0}
+/* Awakenings */
+.prologue{margin:20px 0;padding:14px 16px;border:1px solid var(--line);border-radius:14px;background:rgba(240,196,108,.06)}
+.prologue h2{margin-top:0}
+.stylefeel{padding:10px 14px;border-left:3px solid var(--gold);background:rgba(240,196,108,.06);border-radius:6px}
+.bandlist{padding-left:1.1em}.bandlist li{margin:0 0 .5em}.bandlist b{color:var(--gold)}
