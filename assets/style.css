@@ -202,3 +202,44 @@ footer a,.crumbs a{display:inline-block;padding:12px 6px;margin:-12px -6px}
 .prologue h2{margin-top:0}
 .stylefeel{padding:10px 14px;border-left:3px solid var(--gold);background:rgba(240,196,108,.06);border-radius:6px}
 .bandlist{padding-left:1.1em}.bandlist li{margin:0 0 .5em}.bandlist b{color:var(--gold)}
+
+/* More menu (2026-11-27) */
+.top nav{align-items:center}
+.navmore{position:relative;border:0;border-radius:0;margin:0;background:none}
+.navmore summary{padding:6px 0;font-size:1.05rem;font-weight:400;color:var(--cream)}
+.navmore summary::after{content:"\25BE";float:none;font-size:.9rem;margin-left:5px}
+.navmore[open] summary::after{content:"\25B4"}
+.navmore summary:hover,.navmore[open] summary{color:var(--gold)}
+.navpanel{position:absolute;right:0;top:100%;z-index:20;min-width:240px;margin-top:6px;padding:6px 0;border:1px solid var(--gold);border-radius:12px;background:var(--bg-deep);box-shadow:0 8px 24px rgba(0,0,0,.5)}
+.top nav .navpanel a{display:block;padding:11px 16px;color:var(--cream)}
+.top nav .navpanel a:hover{background:rgba(240,196,108,.12);color:var(--gold)}
+@media(max-width:560px){.navpanel{right:auto;left:0}}
+
+/* Home: path boxes (2026-11-27) */
+.paths{display:grid;gap:14px;margin:10px 0 24px}
+.path{border:2px solid var(--gold);border-radius:14px;background:rgba(240,196,108,.07)}
+.path>a{display:block;padding:18px 18px 10px;text-decoration:none}
+.path>a:hover{background:rgba(240,196,108,.12);border-radius:12px 12px 0 0}
+.path>a b{display:block;font-size:1.2rem;margin-bottom:.3em}
+.path>a span{opacity:.85;font-size:1rem;color:var(--cream)}
+.path details{border:0;border-top:1px solid var(--line);border-radius:0 0 12px 12px;margin:0;background:none}
+.path summary{font-size:1rem;padding:10px 18px;font-weight:600}
+.path .inner p{margin:.5em 0}
+.path .inner .btn{margin-top:.6em}
+.path .agerow{justify-content:flex-start;margin:10px 0 4px}
+.path.me{text-align:center}
+.path.me .agerow{justify-content:center;padding:0 14px 14px}
+.edubox{display:block;text-align:center;border:2px solid var(--gold);border-radius:14px;padding:16px 18px;margin:0 0 28px;background:rgba(240,196,108,.14);text-decoration:none;font-size:1.15rem}
+.edubox b{display:block}
+.edubox span{color:var(--cream);font-size:1rem}
+.edubox:hover{background:rgba(240,196,108,.22)}
+
+/* Find Your Stage (2026-11-27) */
+.stagecards{list-style:none;padding:0;margin:10px 0 24px}
+.stagecards li{border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin:12px 0;background:rgba(240,196,108,.06);scroll-margin-top:16px}
+.stagecards li:target{border:2px solid var(--gold);background:rgba(240,196,108,.14)}
+.stagecards .age{color:var(--gold);font-weight:700;font-size:1.25rem;margin:0}
+.stagecards .sname{margin:.1em 0 .4em;opacity:.85}
+.stagecards .q{font-style:italic;font-size:1.15rem;margin:.3em 0 .6em}
+.stagecards .btn{font-size:1rem;padding:9px 16px}
+.feelinfo{margin:10px 0}

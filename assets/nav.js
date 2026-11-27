@@ -1,0 +1,1 @@
+{const m=document.querySelector('.navmore');if(m){document.addEventListener('click',e=>{if(m.open&&!m.contains(e.target))m.open=false});document.addEventListener('keydown',e=>{if(e.key==='Escape'&&m.open){m.open=false;m.querySelector('summary').focus()}})}}
